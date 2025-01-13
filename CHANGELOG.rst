@@ -4,9 +4,16 @@ Changelog
 0.19.0 (unreleased)
 ___________________
 
-Other changes:
+Bug fixes:
+
+- Fix ``textblob.download_corpora`` script (:issue:`474`).
+  Thanks :user:`cagan-elden` for reporting.
+
+Changes:
 
 - Remove vendorized ``unicodecsv`` module, as it's no longer used.
+- Support Python 3.9-3.13 and nltk>=3.9 (:pr:`486`)
+  Thanks :user:`johnfraney` for the PR.
 
 0.18.0 (2024-02-15)
 -------------------
